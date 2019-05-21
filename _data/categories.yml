@@ -1,0 +1,17 @@
+- title: Tech
+  url: tech
+  status: true
+  subcategories: 
+    - title: flutter
+      url: 'flutter'
+    - title: blockchain
+      status: true
+      url: 'blockchain'
+    - title: reactnative
+      url: 'reactnative'
+
+- title: Travel
+  url: travel
+  status: false
+  subcategories: 
+    - title: wdwddw
