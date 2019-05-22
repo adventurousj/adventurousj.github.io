@@ -8,7 +8,7 @@
       class="nav-home {% if page.current == 'home' %} nav-current{% endif %}"
       role="presentation"
     >
-      <a href="{{ site.baseurl }}">Home</a>
+      <a href="/">Home</a>
     </li>
 
     {% for category in site.data.categories %}
@@ -17,14 +17,14 @@
       class="nav-fables {% if page.url contains 'fables' %} nav-current{% endif %}"
       role="presentation"
     >
-      <a href="{{ site.baseurl }}category/{{ category.url }}">{{
+      <a href="/category/{{ category.url }}">{{
         category.title
       }}</a>
       <!-- sub category-->
       <ol>
         {% for subcategory in category.subcategories %}
         {% if subcategory.status == true %}
-        <a href="{{ site.baseurl }}tag/{{ subcategory.url }}">{{
+        <a href="/tag/{{ subcategory.url }}">{{
           subcategory.title
         }}</a>
         {% endif %}
