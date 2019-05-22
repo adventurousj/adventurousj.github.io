@@ -25,9 +25,9 @@ current: category
         page.category %} {% for subcategory in category.subcategories %} 
         {% if subcategory.status == true %}       
         {% if forloop.index == category.subcategories.size %}
-        <a style='color: white' href="{{ site.baseurl }}tag/{{ subcategory.title }}">{{ subcategory.title }}</a>
+        <a style='color: white' href="/tag/{{ subcategory.title }}">{{ subcategory.title }}</a>
         {% else %}
-        <a style='color: white' href="{{ site.baseurl }}tag/{{ subcategory.title }}">{{ subcategory.title }}</a>, 
+        <a style='color: white' href="/tag/{{ subcategory.title }}">{{ subcategory.title }}</a>, 
         {% endif %} 
         {% endif %} 
         {% endfor %} {% endif %} {% endfor %}
