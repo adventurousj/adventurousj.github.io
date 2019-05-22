@@ -16,20 +16,9 @@ disqus: adventurousj
 
 permalink: /:title
 
-tag_archive:
-  type: jekyll-archives
-  path: /tag/
 
-jekyll-archives:
-  enabled:
-    - tags
-  layouts:
-    tag: archive-taxonomy
-  permalinks:
-    tag: /tags/:name/
-    
 plugins: [jekyll-paginate]
-
+future: true
 
 exclude:
   - README.md

@@ -1,7 +1,6 @@
 ---
 layout: post
 cover: "assets/images/post-cover/what-is-blockchain.png"
-navigation: True
 title: Blockchain-블록체인 이란?
 date: 2019-05-21 07:00:00 
 subclass: "post tag-tech tag-blockchain"

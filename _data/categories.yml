@@ -7,6 +7,9 @@
     - title: blockchain
       status: true
       url: 'blockchain'
+    - title: cryptocurrency
+      status: true
+      url: 'cryptocurrency'
     - title: reactnative
       url: 'reactnative'
 
