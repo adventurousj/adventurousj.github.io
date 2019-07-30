@@ -54,8 +54,3 @@ src="assets/images/post/what-is-cryptocurrency-1.jpeg" alt="what-is-cryptocurren
 예로 비트코인은 그저 블록체인의 가장 원초적 기술에 불과합니다.
 이는 다른 코인들의 경우에도 비슷하게 나타나며
 아직은 암호화폐 실제 통화로 사용하기는 어려울 것 같습니다.
-
-<br>
-여행 갈 때도 환전 없이 편하게 다닐 수 있는 날이 기대되네요.
-<br>
-.. 카드는 수수료가 비싸니까 
